@@ -1,0 +1,19 @@
+pseudo
+
+CLI
+inquirer or prompt user is gonna run the program
+the user will be asked to enter a Letter
+
+if user is right letter is revealed from a set of underscores
+
+if letter is wrong, message alerts user to try again and reduces a guess counter
+if all letters are revealed user wins and is prompted to try again or quit
+
+else game over and same try again or quit
+
+mdn
+instance of array .includes
+pass in whatever you wanna check that's in the array (userGuess)
+.index of it returns -1 if it's not of array
+
+if this.letters.map().include(_)
